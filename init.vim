@@ -105,11 +105,11 @@ EOF
 """ Setup language servers """
 " on_attach = on_attach_common
 " pyright -> python
-" elixirls -> elixir
+" elixirls -> elixir, make sure you update correct path to language server in config. ~/ should be expanted to /home/xxxxx
 lua <<EOF
 require'lspconfig'.pyright.setup{}
 require'lspconfig'.elixirls.setup{
-    cmd = { "/home/sasi/Data/app/elixir-ls/language_server.sh" }
+    cmd = { "/path/to/elixir-ls/language_server.sh" }
 }
 EOF
 
