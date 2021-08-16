@@ -5,7 +5,7 @@ Plug 'hrsh7th/nvim-compe'
 Plug 'preservim/nerdtree'               "file explorer
 Plug 'preservim/nerdcommenter'
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+"Plug 'vim-airline/vim-airline-themes'
 Plug 'dracula/vim'
 Plug 'arcticicestudio/nord-vim'
 Plug 'ryanoasis/vim-devicons'
